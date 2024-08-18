@@ -5,6 +5,7 @@
 wget https://raw.githubusercontent.com/picrust/picrust2/master/picrust2-env.yaml
 conda env create -f picrust2-env.yaml
 conda activate picrust2
+conda install -c bioconda -c conda-forge picrust2
 sudo apt install samtools
 ### cd ./results/picrust2/
 # Picrust2 files
