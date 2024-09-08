@@ -3,7 +3,7 @@
 dependencies <- c("dada2","phyloseq","Biostrings","ComplexHeatmap","ggtext","ggplot2","dplyr","pheatmap","reshape2",
                   "ape","microbiome","DT","vegan","ggthemes","ggsignif","GUniFrac", "tibble","tidyverse","magrittr",
                   "readxl","multcomp","mvtnorm", "ggpicrust2","phangorn","biomformat", "ggprism", "viridisLite", "viridis",
-                  "survival","TH.data","MASS","ggraph","corncob","adegenet","ade4","KEGGREST","edgeR","readr")
+                  "survival","TH.data","MASS","ggraph","corncob","adegenet","decontam","ade4","KEGGREST","edgeR","readr")
 
 # devtools 
 
