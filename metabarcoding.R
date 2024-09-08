@@ -213,6 +213,8 @@ pcoa_plot(pcoa_result, metadata_matrix, my_colour$`Group of Macroalgae`,
 
 ############### DAPC - Adegenet 
 my_pal <- c( "#5e4fa2",  "#9e0142", "#d53e4f",  "#f46d43" , "#fdae61","#fee08b","#3288bd","#66c2a5", "#ffffbf", "#e6f598", "#abdda4")
+bray <- vegdist(otu_table(ps_rar_filtrado),"bray")
+DAPC_METALAGA <- as.data.frame(as.matrix(bray))
 grp <- find.clusters(DAPC_METALAGA)
 DAPC <- dapc(DAPC_METALAGA, grp$grp)
 my_metalga <- as.data.frame(DAPC$ind.coord)
