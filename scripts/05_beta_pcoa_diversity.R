@@ -22,5 +22,4 @@ pcoa_plot <- function(pcoa_result, metadata_matrix, my_pal, color_label = "Host 
        + scale_fill_manual(values = c(paste(my_pal, sep = ""))) -> plot_save
 
        return(plot_save)
-    }
 }
