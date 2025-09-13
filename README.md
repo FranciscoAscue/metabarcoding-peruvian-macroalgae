@@ -1,4 +1,4 @@
 
 # Metabarcoding of macroalgae
 
-Description of the project ...
+Functional prediction based on 16S rRNA metagenome data from bacterial microbiota associated with macroalgae from the Peruvian coast
